@@ -1,0 +1,44 @@
+{
+  "network": "mainnet",
+  "chainId": 1,
+  "deployedAt": "2026-01-02T17:46:54Z",
+  "contracts": {
+    "PunksV1Wrapper": {
+      "address": "0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d",
+      "etherscan": "https://etherscan.io/address/0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d",
+      "note": "Existing contract"
+    },
+    "ERC721StashFactory": {
+      "address": "0x25d136deEBE7C07C2B9A933924aB4BA419027F37",
+      "etherscan": "https://etherscan.io/address/0x25d136deEBE7C07C2B9A933924aB4BA419027F37"
+    },
+    "ERC721StashVerifier": {
+      "address": "0xbB807ab10374E404a3a97078eBb43047Bf614FF6",
+      "etherscan": "https://etherscan.io/address/0xbB807ab10374E404a3a97078eBb43047Bf614FF6"
+    },
+    "ERC721StashImplementationV1": {
+      "address": "0x49Fd54aDCEC364Cf36Fa45bb0180d41338b2e543",
+      "etherscan": "https://etherscan.io/address/0x49Fd54aDCEC364Cf36Fa45bb0180d41338b2e543",
+      "note": "Factory implementations(1)"
+    },
+    "ERC721StashImplementationV2": {
+      "address": "0x552be4dA31eE8F81eEDd0055dBe9FF9C16575312",
+      "etherscan": "https://etherscan.io/address/0x552be4dA31eE8F81eEDd0055dBe9FF9C16575312",
+      "note": "Factory implementations(2)"
+    },
+    "ERC721StashImplementationV3": {
+      "address": "0xcb238C94A126D665aaf60E42c379640EA3260d99",
+      "etherscan": "https://etherscan.io/address/0xcb238C94A126D665aaf60E42c379640EA3260d99",
+      "note": "Factory implementations(3). Settles native V1 punks at the real sale price (buyPunk at bid price + withdraw). Deployed 2026-07-28, tx 0xe858a5840f382508bab20672e8fad728c0d2430d0219cf61b188d16edf6fe7cb; addVersion tx 0xc175c38dfd47f64a68c7caf9e2462a6d06f2343b545d8df8a9872e6c48c07fd3"
+    },
+    "ERC721StashImplementationV4": {
+      "address": "0xc0a3425a2801EcDAe9c022559e4A6A52B8949df7",
+      "etherscan": "https://etherscan.io/address/0xc0a3425a2801EcDAe9c022559e4A6A52B8949df7",
+      "note": "Factory implementations(4); current version. Routes wrapped punk sales through FrankPoncelet's WPV1 marketplace (0x759c6C1923910930C18ef490B3c3DbeFf24003cE) for real PunkBought events. Deployed 2026-07-30, deploy tx 0x11bebf4d138f1debd2e273054f4d41b129bd7c1b523533ef4abd5f7df46f3869; addVersion tx 0x359745197b38da36fb9f067d5e4c6d5d773101a0b04dae099422014b268f085d"
+    }
+  },
+  "environment": {
+    "WETH_ADDRESS": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "DEPLOYER_ADDRESS": "0x67B1eBaF847BE5050272b174be2713D81b08dCF4"
+  }
+}

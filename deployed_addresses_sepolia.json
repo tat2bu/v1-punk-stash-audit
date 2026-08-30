@@ -1,0 +1,32 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2026-01-01T21:03:37Z",
+  "contracts": {
+    "PunksV1Wrapper": {
+      "address": "0x8f7D8787b94505336aDAd20827283d0F5c22A42F",
+      "etherscan": "https://sepolia.etherscan.io/address/0x8f7D8787b94505336aDAd20827283d0F5c22A42F",
+      "note": "Deployed"
+    },
+    "ERC721StashFactory": {
+      "address": "0x872344D24e64e13DC74fe7fB07aC06c1846169e4",
+      "etherscan": "https://sepolia.etherscan.io/address/0x872344D24e64e13DC74fe7fB07aC06c1846169e4"
+    },
+    "ERC721StashVerifier": {
+      "address": "0xB4838dE29566b2269831c61ED6D242eBA64b49dD",
+      "etherscan": "https://sepolia.etherscan.io/address/0xB4838dE29566b2269831c61ED6D242eBA64b49dD"
+    },
+    "ERC721StashImplementation": {
+      "address": "0xEe503F6876B3f71677cB8356C4EEdA153388a6D2",
+      "etherscan": "https://sepolia.etherscan.io/address/0xEe503F6876B3f71677cB8356C4EEdA153388a6D2"
+    },
+    "MockPunksV1": {
+      "address": "0xE89adD4a3e5fe3a7F509f4b58e985C6fc4002C9a",
+      "etherscan": "https://sepolia.etherscan.io/address/0xE89adD4a3e5fe3a7F509f4b58e985C6fc4002C9a"
+    }
+  },
+  "environment": {
+    "WETH_ADDRESS": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "DEPLOYER_ADDRESS": "0xab99AaEc9D8b1d2fE0178ebE25176033a4d9a553"
+  }
+}
